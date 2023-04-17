@@ -21,7 +21,7 @@ for vacancy_tag in head_hunter_all_vacancy:
     a_tag_text = a_tag.text
 
     # Извлечение ссылки и названия компании
-    if 'Django' in  a_tag_text or 'Flack' in  a_tag_text:
+    if 'Django' in a_tag_text or 'Flack' in  a_tag_text:
         name_company = a_tag_text
         link = a_tag['href']
 
